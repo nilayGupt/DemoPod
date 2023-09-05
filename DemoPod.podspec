@@ -34,6 +34,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.0"
 
   spec.source        = { :git => "https://github.com/nilayGupt/DemoPod.git", :tag => "#{spec.version}" }
-  # spec.source_files  = "demoPod/**/*.{h,m,swift}"
+  spec.source_files  = "NewDemoPod/**/*.{h,m,swift}"
 
 end
